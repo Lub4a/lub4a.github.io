@@ -33,22 +33,45 @@ a {
     border-radius: 10px;
 }
 
+.header-item {
+   display: inline;
+   padding: 20px;
+}
+
+ .header-item>a {
+   color: rgb(197 107 107);
+   font-weight: 600;
+}
+
 .main {
     width: 65%;
     border-right: 3px solid darkgray;
 }
 
+h1 {
+    text-align: center;
+}
+
 .about,
-.education {
+.education,
+.my-projects,
+.my-work {
     margin: 30px;
 }
 
-.education li a {
-    color: rgb(148, 29, 5);
-}
 
 .about-description {
     text-align: justify;
+}
+
+.projects-item {
+    list-style:disc;
+    color:rgb(197 107 107);
+}
+
+.projects-item > a{
+ color: rgb(197 107 107);
+ font-weight: 600;
 }
 
 .exampel-code {
@@ -58,7 +81,7 @@ a {
     margin-left: 40px;
     box-shadow: 4px 6px 8px rgba(0, 0, 0, .75);
     width: 80%
-    text-align: left;
+    text-aligin: left;
 }
 
 .skills_titel,
@@ -66,6 +89,9 @@ a {
     margin-left: 30px;
 }
 
+.skills {
+    padding-top: 90px;
+}
 .sidebar {
     width: 35%;
     background-color: darkgrey;
@@ -76,8 +102,9 @@ a {
 }
 
 .nav-item>a:hover,
-.footer>a:hover {
-    color: rgb(44, 44, 200)
+.projects-item>a:hover,
+.header-item>a:hover  {
+    color:rgb(100 100 119)
 }
 
 .skills-item:nth-child(even) {
@@ -92,5 +119,6 @@ a {
     align-items: center;
 }
 
-.footer>a {
-    color: rgb(148, 29, 5);
+.footer p{
+    font-size: 25px;
+}
