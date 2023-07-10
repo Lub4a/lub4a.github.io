@@ -43,6 +43,10 @@ a {
     margin: 30px;
 }
 
+.education li a {
+    color: rgb(148, 29, 5);
+}
+
 .about-description {
     text-align: justify;
 }
@@ -53,7 +57,7 @@ a {
     box-shadow: inset;
     margin-left: 40px;
     box-shadow: 4px 6px 8px rgba(0, 0, 0, .75);
-    width: 300px;
+    width: 80%;
     text-align: left;
 }
 
